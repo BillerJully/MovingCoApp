@@ -1,0 +1,65 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    height: 5%;
+    background-color: #ffffff;
+    border-radius: 5px;
+/* Full height */
+  /*  position: fixed;  Make it stick, even on scroll */
+ /* Enable scrolling if the sidenav has too much content */
+}
+
+.main{
+    display: flex;
+    padding: 0px 5px;
+}
+li {
+
+    float: left;
+}
+
+.number {
+float:  left;
+}
+
+.input_order {
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+button {
+    width: 30%;
+    position: relative;
+    left: 43%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 10px 5px;
+    margin-top: 15px;
+}
+
+button {
+cursor: pointer;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background: #FCFCFC;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+li a {
+    display: flex;
+    color: rgb(38, 38, 38);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #e6e5e5;
+}

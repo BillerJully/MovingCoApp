@@ -1,0 +1,52 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <title>MovingCo</title>
+    <link rel="stylesheet" href="../../static/MovingCoWebSite/CSS/style.css" type="text/css"/>
+</head>
+<body>
+    <div class="main">
+        <h1 style="margin-block-end: auto;">MovingCoColorado</h1>
+        <div class="navigation" style="padding: 5px;"><nav class="clearfix">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li style="float:right"><a class="active" href="#about">About</a></li>
+            </ul>
+         </div>
+         <!-- <div class="telephone"> -->
+         <!-- <div class="number"><h2 style=>8(900)300-45-90</h2></div></div>   -->
+        </div>
+    </nav> </div>
+  <hr style="height: 0px;" color="#00000">
+    <div class="content">
+        <div class="form">
+            <form action="">
+        <div class="input_order" action="../../static/MovingCoWebSite/js/ajax.php" method="post">
+            <label for="fname"><i></i> First address</address></label>
+            <input type="text" name="adressA" placeholder="Откуда" autocomplete="off">
+            <label for="fname"><i></i> Final address</address></label>
+            <input type="text" name="adressB" placeholder="Куда" autocomplete="off">
+            <label for="fname"><i></i> Your name</address></label>
+            <input type="text" name="name" placeholder="Имя" autocomplete="off" >
+            <label for="fname"><i></i> Your phone number</address></label>
+            <input type="tel"name="phone" placeholder="Номер телефона"  pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" autocomplete="off" >
+            <label for="fname"><i></i> Comment</address></label>
+            <input type="text"name="comment" placeholder="Комментарий" autocomplete="off">
+            <button type="submit" onclick="return clientsrequest">Make order </button>
+
+        </div>
+        </form>
+        </div>
+    </div>
+    </div>
+    </div>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../static/MovingCoWebSite/js/main.js"></script>
+    <div class="footer"></div> 
+</body>
+</html>
